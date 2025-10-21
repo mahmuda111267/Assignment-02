@@ -166,7 +166,7 @@
 
 .user-review-text{
     box-sizing: border-box;
-    background-color: #eaeaf7;
+    background-color:  #f0f0f5;
     padding: 20px;
     width: 300px;
     border-radius: 10px;
@@ -214,8 +214,112 @@
 
 }
 
+.fourth-section{
+    max-width: 1140px;
+    background-color: #f0f0f5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+.fourth-content h1{
+    font-size: 50px;
+    padding-top: 30px;
 
+}
 
+.fourth-content p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.fourth-content button{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 160px;
+    height: 37px;
+    border: none;
+    margin-top: 20px;
+}
+
+.fourth-img img{
+    height: 350px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.form-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section{
+    margin-top: 100px;
+}
+
+.form-content h1{
+    font-size: 100px;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+
+.form-start{
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+input[type=text], [type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #747171;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 2px solid #747171;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  resize: none;
+}
+
+form{
+    padding: 50px;
+}
+
+.form-start button{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 250px;
+    height: 37px;
+    border: none;
+    margin-top: 20px;
+
+}
 
 
