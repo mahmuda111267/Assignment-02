@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url(./image/Hero-bg.png); 
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content{
+    display: flex;
+    margin: 0 auto;   
+}
+
+.header-content button{
+    color: white;
+    background-color: blue;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 80px;
+    height: 28px;
+    border: none;
+
+}
+
+.header-content{
+    width: 1140px;    
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.header-content p{
+    color: blue;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.middle-content{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.middle-content h1{
+    font-size: 70px;
+}
+
+.middle-content button{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 140px;
+    height: 37px;
+    border: none;
+    margin-top: 30px;
+}
+
+.main-div{
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.main-div-content{
+    margin-top: 50px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.main-div-content h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main-div-content p{
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+.main-div-content button{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    width: 160px;
+    height: 37px;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.main-div-image{
+    text-align: right;
+    max-width: 400px;
+}
+
+.main-div-image img{
+    height: 300px;
+    border-radius: 30px;
+}
+
+
+.status {
+  background-color: #e2e0f1;
+  padding: 60px 20px;
+  border-radius: 16px;
+  margin: 100px auto;
+  width: 1140px;
+}
+
+.status h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.status-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.status-item h3 {
+  font-size: 50px;
+  color: #4141f7;
+  font-weight: 800;
+}
+
+.status-item p {
+  color: #555;
+  font-size: 15px;
+  margin-top: 2px;
+}
