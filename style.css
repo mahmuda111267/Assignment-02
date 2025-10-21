@@ -146,3 +146,76 @@
   font-size: 15px;
   margin-top: 2px;
 }
+
+.user-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.user-section h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.stars{
+    color: rgb(248, 181, 11);
+    margin-bottom: 10px;
+}
+
+.user-review-text{
+    box-sizing: border-box;
+    background-color: #eaeaf7;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.user-review-text h2{
+    font-size: 20px;
+
+}
+
+.user-review-text p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.user-review{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.user-profile-img img{
+    border-radius: 50%;
+}
+
+.user-profile-text p{
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 15px;
+
+
+}
+
+.user-profile-text span{
+    font-size: 13px;
+    color: #363535;
+
+
+}
+
+
+
+
+
+
